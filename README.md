@@ -10,7 +10,7 @@ Maven 3
 Docker(optional)
 
 ### Running the application locally
-Maybe there are several ways to run an application but for this example it will be only 2 options:
+Maybe there are several ways to run an application but for this example it will be only 3 options:
 
 #### Option 1: Command line
 ###### mvn clean install
@@ -26,13 +26,16 @@ Maybe there are several ways to run an application but for this example it will 
 ###### docker compose up
 
 ### After running
-the endpoint will be;
+the endpoints will be;
 http://localhost:8080/api/spaceships
+
+![Alt text](endpoints.png)
+
 
 #Security example
 user admin, password starlord can CRUD
 
-user groot, iamgroot can CRU
+user groot, password iamgroot can CRU
 
 #### API Documentation is available in:
 ###### http://localhost:8080/swagger-ui/index.html
