@@ -1,8 +1,8 @@
 
 services:
-  zookeeper:
+  api-spaceships:
     image: api-spaceships:1.0.0
     restart: always
-    container_name: zookeeper
+    container_name: api-spaceships
     ports:
       - "8080:8080"

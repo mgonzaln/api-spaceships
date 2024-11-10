@@ -17,13 +17,13 @@ Maybe there are several ways to run an application but for this example it will 
 ###### mvn spring-boot:run
 
 #### Option 2: Command line-execute jar
-###### mvn clean compile package
+###### mvn clean install
 ###### java -jar target/spaceship-api.jar
 
 #### Option 3: Docker (optional)
-###### mvn clean install compile package
+###### mvn clean install
 ###### docker image build -t api-spaceships:1.0.0 .
-###### docker compose up
+###### docker compose up -d
 
 ### After running
 the endpoints will be;
